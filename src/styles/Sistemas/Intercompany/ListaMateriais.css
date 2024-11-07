@@ -1,0 +1,128 @@
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Card */
+.card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 600px;
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+/* Typography */
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+/* Forms */
+.form-control {
+  width: 100%;
+  max-width: 700px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.form-check-input {
+  margin-right: 10px;
+}
+
+/* Buttons */
+.btn-primary, .btn-avancar {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover, .btn-avancar:hover {
+  background-color: #0056b3;
+}
+
+.btn-primary:focus, .btn-avancar:focus {
+  outline: none;
+}
+
+/* Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+/* Lists */
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+
+.list-group-item {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-group-item:hover {
+  background-color: #e2e6ea;
+}
+
+/* Containers */
+.hospital-list, .material-list, .material-details {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+}
+
+.hospital-title, .material-details {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Tables */
+.table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table {
+  margin-top: 20px;
+}
+.table th, .table td {
+  text-align: center;
+}

@@ -1,0 +1,83 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(233, 163, 97);
+    transition: 0.4s;
+    border-radius: 20px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #0881cc;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+  
+  .cartao {
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .etiqueta-formulario {
+    font-weight: 500;
+    color: #1d3e52;
+  }
+  
+  .selecao-formulario {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .botao-primario {
+    background-color: #0881cc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-primario:hover {
+    background-color: #214e92;
+  }
+  

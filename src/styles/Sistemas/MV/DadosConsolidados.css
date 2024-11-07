@@ -1,0 +1,118 @@
+body {
+    font-family: 'Jost', -apple-system, sans-serif;
+    font-size: 15px;
+    color: #3E4676;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.cartao {
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.titulo-cartao {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1D3D51;
+    margin-bottom: 10px;
+}
+
+.subtitulo-cartao {
+    font-size: 14px;
+    font-weight: 300;
+    color: #6c757d;
+}
+
+.mb-3{
+    margin-top: 15px;
+}
+
+.etiqueta-formulario {
+    font-weight: 500;
+    color: #1D3D51;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.controle-formulario {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    margin-top: 5px;
+    width: 95%;
+    font-size: 14px;
+}
+
+.selecao-formulario{
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    margin-top: 5px;
+    width: 97%;
+    font-size: 14px;
+
+}
+
+.botao-primario {
+    background-color: #0881cc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.botao-primario:hover {
+    background-color: #214e92;
+    
+}
+
+#tooltip{
+    margin-left: 10px;
+}
+
+.etiqueta-formulario .tooltip-texto {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 63%; 
+    left: 19%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.etiqueta-formulario .tooltip-texto::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.etiqueta-formulario:hover .tooltip-texto {
+    visibility: visible;
+    opacity: 1;
+}
